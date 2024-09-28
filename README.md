@@ -1,16 +1,46 @@
-# alarm_clock
 
-A new Flutter project.
+# ⏰ Flutter Alarm Clock
 
-## Getting Started
+A sleek and modern **Flutter-based Alarm Clock** app with customizable time settings, sound notifications, and a clean UI. 
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Set Custom Alarms**: Pick a time, and the app will alert you when it's time!
+- **Sound Notifications**: Plays a sound when the alarm triggers.
+- **Modern UI**: Minimalist design with clean buttons and smooth user experience.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📱 Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Main Screen             | Alarm Triggered          |
+|-------------------------|--------------------------|
+| ![Main Screen](path/to/screenshot1.png) | ![Alarm](path/to/screenshot2.png) |
+
+## 🚀 Getting Started
+
+1. **Clone the repo**:
+   ```bash
+   git clone https://github.com/your-username/flutter-alarm-clock.git
+   ```
+2. **Navigate into the project directory**:
+   ```bash
+   cd flutter-alarm-clock
+   ```
+3. **Install dependencies**:
+   ```bash
+   flutter pub get
+   ```
+4. **Run the app**:
+   ```bash
+   flutter run
+   ```
+
+## 🔊 Adding Alarm Sound
+
+Make sure to add an `alarm.mp3` sound file under the `assets/sounds` folder:
+1. Create the folder: `assets/sounds/`
+2. Update `pubspec.yaml`:
+   ```yaml
+   flutter:
+     assets:
+       - assets/sounds/alarm.mp3
+   ```
