@@ -9,11 +9,6 @@ A sleek and modern **Flutter-based Alarm Clock** app with customizable time sett
 - **Sound Notifications**: Plays a sound when the alarm triggers.
 - **Modern UI**: Minimalist design with clean buttons and smooth user experience.
 
-## 📱 Screenshots
-
-| Main Screen             | Alarm Triggered          |
-|-------------------------|--------------------------|
-| ![Main Screen](path/to/screenshot1.png) | ![Alarm](path/to/screenshot2.png) |
 
 ## 🚀 Getting Started
 
